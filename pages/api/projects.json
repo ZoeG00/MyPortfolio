@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "name": "SmartShop",
+    "image": "https://i.ibb.co/pwKgJcS/smartshop-3.jpg",
+    "description": "SmartShop es una aplicación que permite realizar compras en supermercados o almacenes sin luego hacer fila para pagar.",
+    "tags": ["expo", "react-native", "nativewind", "typescript", "formik", "yup", "zustand", "mercadopagoAPI"],
+    "source_code": "https://github.com/No-Country/s7-16-t-reactnative",
+    "demo": "https://drive.google.com/file/d/1rndYl9g6mFpZOWsqP6oqHTgRfzVm-7_J/view"
+  },
+  {
+    "id": 2,
+    "name": "El Buen Gusto",
+    "image": "https://i.ibb.co/4TTrpTG/elbuengusto-1.png",
+    "description": "El Buen Gusto es para el restaurante que desea tener su propia MobileApp para que sus clientes puedan realizar sus pedidos a domicilio.",
+    "tags": ["expo", "react-native", "formik", "yup", "redux"],
+    "source_code": "https://github.com/ZoeG00/ElBuenGusto",
+    "demo": "https://www.pcbcupid.com/"
+  },
+  {
+    "id": 3,
+    "name": "Online Tech Store",
+    "image": "https://i.ibb.co/mT4Fts3/smartshop-3.jpg",
+    "description": "Tienda Online de productos tecnológicos",
+    "tags": ["react", "node", "mongodb", "redux", "razorpay", "material-ui"],
+    "source_code": "https://github.com/ZoeG00/Online-Tech-Store",
+    "demo": "https://zoeg00.github.io/Online-Tech-Store/"
+  },
+  {
+    "id": 4,
+    "name": "VSCode Portfolio",
+    "image": "https://i.ibb.co/bX0bWcn/portfolio.png",
+    "description": "Portafolio construído con next y css modules basado en visual studio code",
+    "tags": ["next", "css-modules"],
+    "source_code": "https://github.com/itsnitinr/vscode-portfolio",
+    "demo": "http://vscode-portfolio.vercel.app/"
+  },
+  {
+    "id": 4,
+    "name": "Alkeflix",
+    "image": "https://i.ibb.co/mT4Fts3/smartshop-3.jpg",
+    "description": "Portafolio construído con next y css modules basado en visual studio code",
+    "tags": ["react", "bootstrap"],
+    "source_code": "https://github.com/itsnitinr/vscode-portfolio",
+    "demo": "http://vscode-portfolio.vercel.app/"
+  },
+  {
+    "id": 4,
+    "name": "Mensaje Secreto",
+    "image": "https://i.ibb.co/mT4Fts3/smartshop-3.jpg",
+    "description": "SmartShop es una aplicación que permite realizar compras en supermercados o almacenes sin luego hacer fila para pagar.",
+    "tags": ["expo", "react-native", "NativeWind", "TypeScript", "Formik", "Yup", "Zustand", "MercadoPago API"],
+    "source_code": "https://github.com/itsnitinr/vscode-portfolio",
+    "demo": "http://vscode-portfolio.vercel.app/"
+  },
+  {
+    "id": 4,
+    "name": "Juego Ahorcado",
+    "image": "https://i.ibb.co/mT4Fts3/smartshop-3.jpg",
+    "description": "A themeable and developer-centric portfolio based on the VSCode",
+    "tags": ["next", "css-modules"],
+    "source_code": "https://github.com/itsnitinr/vscode-portfolio",
+    "demo": "http://vscode-portfolio.vercel.app/"
+  }
+]
