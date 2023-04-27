@@ -4,7 +4,7 @@
     "name": "SmartShop",
     "image": "https://i.ibb.co/pwKgJcS/smartshop-3.jpg",
     "description": "SmartShop es una aplicación que permite realizar compras en supermercados o almacenes sin luego hacer fila para pagar.",
-    "tags": ["expo", "react-native", "nativewind", "typescript", "formik", "yup", "zustand", "mercadopagoAPI"],
+    "tags": ["expo", "react-native", "nativewind", "typescript", "formik", "yup", "zustand", "mercadopagoAPI", "colaborativo"],
     "source_code": "https://github.com/No-Country/s7-16-t-reactnative",
     "demo": "https://drive.google.com/file/d/1rndYl9g6mFpZOWsqP6oqHTgRfzVm-7_J/view"
   },
@@ -13,16 +13,16 @@
     "name": "El Buen Gusto",
     "image": "https://i.ibb.co/4TTrpTG/elbuengusto-1.png",
     "description": "El Buen Gusto es para el restaurante que desea tener su propia MobileApp para que sus clientes puedan realizar sus pedidos a domicilio.",
-    "tags": ["expo", "react-native", "formik", "yup", "redux"],
+    "tags": ["expo", "react-native", "formik", "yup", "redux", "colaborativo"],
     "source_code": "https://github.com/ZoeG00/ElBuenGusto",
     "demo": "https://www.pcbcupid.com/"
   },
   {
     "id": 3,
     "name": "Online Tech Store",
-    "image": "https://i.ibb.co/mT4Fts3/smartshop-3.jpg",
-    "description": "Tienda Online de productos tecnológicos",
-    "tags": ["react", "node", "mongodb", "redux", "razorpay", "material-ui"],
+    "image": "https://i.ibb.co/7kvQJ0x/tech.png",
+    "description": "Réplica de un e-commerce de productos tecnológicos",
+    "tags": ["react", "vit","redux", "chakra-ui", "colaborativo"],
     "source_code": "https://github.com/ZoeG00/Online-Tech-Store",
     "demo": "https://zoeg00.github.io/Online-Tech-Store/"
   },
@@ -31,35 +31,35 @@
     "name": "VSCode Portfolio",
     "image": "https://i.ibb.co/bX0bWcn/portfolio.png",
     "description": "Portafolio construído con next y css modules basado en visual studio code",
-    "tags": ["next", "css-modules"],
+    "tags": ["next", "css-modules", "personal"],
     "source_code": "https://github.com/itsnitinr/vscode-portfolio",
     "demo": "http://vscode-portfolio.vercel.app/"
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "Alkeflix",
-    "image": "https://i.ibb.co/mT4Fts3/smartshop-3.jpg",
-    "description": "Portafolio construído con next y css modules basado en visual studio code",
-    "tags": ["react", "bootstrap"],
-    "source_code": "https://github.com/itsnitinr/vscode-portfolio",
-    "demo": "http://vscode-portfolio.vercel.app/"
+    "image": "https://i.ibb.co/5BnWYxn/alkeflix.png",
+    "description": "Alkeflix está inspirada en netflix. Se utiliza una Api de películas para ver la descripción de estrenos recientes. También se puede añadir a favoritos.",
+    "tags": ["react", "bootstrap", "personal"],
+    "source_code": "https://github.com/ZoeG00/alkeflix",
+    "demo": "https://zoeg00.github.io/alkeflix/"
   },
   {
-    "id": 4,
-    "name": "Mensaje Secreto",
-    "image": "https://i.ibb.co/mT4Fts3/smartshop-3.jpg",
-    "description": "SmartShop es una aplicación que permite realizar compras en supermercados o almacenes sin luego hacer fila para pagar.",
-    "tags": ["expo", "react-native", "NativeWind", "TypeScript", "Formik", "Yup", "Zustand", "MercadoPago API"],
-    "source_code": "https://github.com/itsnitinr/vscode-portfolio",
-    "demo": "http://vscode-portfolio.vercel.app/"
+    "id": 6,
+    "name": "Secretio: Mensaje Secreto",
+    "image": "https://i.ibb.co/2jwN8QH/mensaje.png",
+    "description": "Con Secretio podrás crear mensajes secretos y enviárselos a tus amigos o familiares. En Secretio podrán encriptar o desencriptar el mensaje secreto.",
+    "tags": ["html", "css", "javascript", "personal"],
+    "source_code": "https://github.com/ZoeG00/mensaje-secreto",
+    "demo": "https://zoeg00.github.io/mensaje-secreto/"
   },
   {
-    "id": 4,
+    "id": 7,
     "name": "Juego Ahorcado",
-    "image": "https://i.ibb.co/mT4Fts3/smartshop-3.jpg",
-    "description": "A themeable and developer-centric portfolio based on the VSCode",
-    "tags": ["next", "css-modules"],
-    "source_code": "https://github.com/itsnitinr/vscode-portfolio",
-    "demo": "http://vscode-portfolio.vercel.app/"
+    "image": "https://i.ibb.co/Gx95yMt/ahorcado.png",
+    "description": "Juego clásico del ahorcado con el que podrás divertirte adivinando. También podrás agregar palabras nuevas.",
+    "tags": ["html", "css", "javascript", "personal"],
+    "source_code": "https://github.com/ZoeG00/juego-ahorcado",
+    "demo": "https://zoeg00.github.io/juego-ahorcado/"
   }
 ]
