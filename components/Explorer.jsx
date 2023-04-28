@@ -25,11 +25,6 @@ const explorerItems = [
     path: '/projects',
     icon: 'js_icon.svg',
   },
-  {
-    name: 'skills.json',
-    path: '/skills',
-    icon: 'json_icon.svg',
-  },
 ];
 
 const Explorer = () => {

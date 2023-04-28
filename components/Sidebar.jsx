@@ -20,7 +20,7 @@ const sidebarTopItems = [
   },
   {
     Icon: PencilIcon,
-    path: '/skills',
+    path: '/about',
   },
   {
     Icon: MailIcon,

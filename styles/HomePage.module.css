@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
 
+.perfil {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  box-shadow: 0.1rem 0.1rem  0.5rem white;
+  border-radius: 20rem;
+}
 .container {
   display: flex;
   justify-content: center;

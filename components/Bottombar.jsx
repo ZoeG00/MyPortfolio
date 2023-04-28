@@ -5,6 +5,7 @@ import CheckIcon from './icons/CheckIcon';
 import NextjsIcon from './icons/NextjsIcon';
 import SourceControlIcon from './icons/SourceControlIcon';
 import styles from '../styles/Bottombar.module.css';
+import Link from 'next/link';
 
 const Bottombar = () => {
   return (
@@ -29,11 +30,11 @@ const Bottombar = () => {
       <div className={styles.container}>
         <div className={styles.section}>
           <NextjsIcon className={styles.icon} />
-          <p>Powered by Next.js</p>
+          <Link href='https://nextjs.org/'><a target="_blank">Powered by Next.js</a></Link>
         </div>
         <div className={styles.section}>
           <CheckIcon className={styles.icon} />
-          <p>Prettier</p>
+          <Link href='https://prettier.io/'><a target="_blank">Prettier</a></Link>
         </div>
         <div className={styles.section}>
           <BellIcon />
