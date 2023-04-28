@@ -4,7 +4,7 @@ const contactItems = [
   {
     social: 'website',
     link: 'zoeguzman.portfolio',
-    href: 'https://nitinranganath.me',
+    href: 'https://zoeguzmanportfolio.vercel.app/',
   },
   {
     social: 'email',

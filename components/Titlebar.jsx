@@ -1,16 +1,21 @@
 import Image from 'next/image';
 import styles from '../styles/Titlebar.module.css';
+import Link from 'next/link';
 
 const Titlebar = () => {
   return (
     <section className={styles.titlebar}>
-      <Image
-        src="/vscode_icon.svg"
-        alt="VSCode Icon"
-        height={15}
-        width={15}
-        className={styles.icon}
-      />
+    <Link href="https://code.visualstudio.com/">
+      <a target="blank">
+          <Image
+            src="/vscode_icon.svg"
+            alt="VSCode Icon"
+            height={15}
+            width={15}
+            className={styles.icon}
+          />
+      </a>
+    </Link>
       <div className={styles.items}>
         <p>File</p>
         <p>Edit</p>

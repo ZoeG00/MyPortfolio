@@ -2,27 +2,30 @@ import { useState } from 'react';
 import ContactCode from '../components/ContactCode';
 import styles from '../styles/ContactPage.module.css';
 
-const ContactPage = () => {
+const ContactPage =() => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
-  const [subject, setSubject] = useState('');
   const [message, setMessage] = useState('');
 
-  const submitForm = async (e) => {
-    e.preventDefault();
-    console.log(process.env.NEXT_PUBLIC_API_URL);
-    const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/contact`, {
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+
+    // Enviar los datos del formulario al servidor
+    const response = await fetch('/api/contact', {
       method: 'POST',
-      body: JSON.stringify({ name, email, subject, message }),
+      body: JSON.stringify({ name, email, message }),
+      headers: {
+        'Content-Type': 'application/json',
+      },
     });
-    if (res.ok) {
-      alert('Your response has been received!');
+
+    if (response.ok) {
+      alert('El mensaje se ha enviado correctamente');
       setName('');
       setEmail('');
-      setSubject('');
       setMessage('');
     } else {
-      alert('There was an error. Please try again in a while.');
+      alert('Ocurrió un error al enviar el mensaje');
     }
   };
 
@@ -34,7 +37,7 @@ const ContactPage = () => {
       </div>
       <div>
         <h3 className={styles.heading}>Send me a message</h3>
-        <form className={styles.form} onSubmit={submitForm}>
+        <form className={styles.form} onSubmit={handleSubmit}>
           <div className={styles.flex}>
             <div>
               <label htmlFor="name">Name</label>
@@ -58,17 +61,6 @@ const ContactPage = () => {
                 required
               />
             </div>
-          </div>
-          <div>
-            <label htmlFor="name">Subject</label>
-            <input
-              type="text"
-              name="subject"
-              id="subject"
-              value={subject}
-              onChange={(e) => setSubject(e.target.value)}
-              required
-            />
           </div>
           <div>
             <label htmlFor="message">Message</label>

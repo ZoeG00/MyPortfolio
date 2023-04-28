@@ -33,7 +33,7 @@
     "description": "Portafolio construído con next y css modules basado en visual studio code",
     "tags": ["next", "css-modules", "personal"],
     "source_code": "https://github.com/itsnitinr/vscode-portfolio",
-    "demo": "http://vscode-portfolio.vercel.app/"
+    "demo": "https://zoeguzmanportfolio.vercel.app/"
   },
   {
     "id": 5,
